@@ -1,7 +1,7 @@
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 import { DOMParser } from "https://deno.land/x/deno_dom/deno-dom-wasm.ts";
 
-const AGENT_SECRET_KEY = Deno.env.get("AGENT_SECRET_KEY") || "1234567";
+const AGENT_SECRET_KEY = Deno.env.get("AGENT_SECRET_KEY") || "YourSuperSecretKey123!@#";
 
 let requestCounter = 0;
 
